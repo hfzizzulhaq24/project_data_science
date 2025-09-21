@@ -11,7 +11,7 @@ I use **Machine Learning (K-Means Clustering)** to group customers based on thei
 ---
 
 ## 📊 Dataset
-- Source: [Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/nantonio/a-hotels-customers-dataset?resource=download))
+- Source: [https://www.kaggle.com/datasets/nantonio/a-hotels-customers-dataset?resource=download]
 - Records: 83,590 customer transactions
 - Features: 29 columns
 
