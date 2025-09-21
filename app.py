@@ -53,7 +53,7 @@ st.sidebar.header("Model & Data Paths")
 scaler_path = st.sidebar.text_input("Path Scaler .pkl", value="Model/scaler.pkl")
 kmeans_path = st.sidebar.text_input("Path KMeans .pkl", value="Model/kmeans_final.pkl")
 pca_path = st.sidebar.text_input("Path PCA .pkl ", value="Model/pca_model.pkl")
-default_csv = st.sidebar.text_input("Path CSV (Optional) ", value="Data/segment.csv")
+default_csv = st.sidebar.text_input("Folder CSV (Optional) ", value="Data/segment.csv")
 
 load_models_btn = st.sidebar.button("Load Models")
 
@@ -115,7 +115,7 @@ use_default = False
 if uploaded_file is None and default_csv:
     try:
         _ = open(default_csv, "r")
-        use_default = st.sidebar.checkbox("Gunakan default CSV", value=False)
+        use_default = st.sidebar.checkbox("Gunakan Data df_segmen.csv", value=False)
     except Exception:
         use_default = False
 
